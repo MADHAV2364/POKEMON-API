@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Poppins";
+    background: rgb(45, 44, 44);
+}
+
+.pokemonNumber {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.submitButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+    background-color: #45a049;
+}
+
+.pokemonContainerWrapper {
+    max-height: 60vh;
+    width: 100%;
+}
+
+.pokemonContainer {
+    width: 100%;
+    text-align: center;
+}
+
+.pokemon-card {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    background: white;
+    text-transform: capitalize;
+}
+
+.pokemon-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
